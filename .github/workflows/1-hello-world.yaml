@@ -1,6 +1,6 @@
 name: 1 - hello - world
 
-on: workflow-dispatch
+on: workflow_dispatch
 
 jobs: 
     first-job:
