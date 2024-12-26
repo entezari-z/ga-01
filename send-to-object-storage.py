@@ -20,7 +20,7 @@ def upload_files_from_directory(directory):
             aws_secret_access_key = secret_key
         )
 
-        bucket_name = 'githubactions-14030823'
+        bucket_name = 'githubactions-14031005'
         bucket = s3_resource.Bucket(bucket_name)
         bucket.create(ACL='public-read')
 
